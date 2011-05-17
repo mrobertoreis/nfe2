@@ -1,4 +1,4 @@
-# Integração com a camada de visualização
+# Integrando com a camada de visualização
 
 ## Integração com JSF 2
 
