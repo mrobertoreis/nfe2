@@ -1,4 +1,5 @@
 # Formatadores
+
 Formatando...
 ```java
 Formatter formatter = new NITFormatter();  
@@ -6,6 +7,7 @@ String unfotmatedValue = "17033259504";
 String formatedValue = formatter.format(unfotmatedValue );  
 // formatedValue = "170.33259.50-4" ;  
 ```
+
 Removendo formatação...
 ```java
 Formatter formatter = new NITFormatter();  
