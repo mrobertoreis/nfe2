@@ -21,7 +21,7 @@ Para configurar as mensagens de erro utilize o arquivo *ValidatorMessages.proper
 ## Utilizando o Stella Bean Validation
 Para saber mais sobre o Caelum Stella Bean Validation, consulte os links abaixo:
 
-* [[Anotando seu modelo|anotando-o-modelo]]
+* [[Anotando o modelo|anotando-o-modelo]]
 * [[Persistindo o modelo|persistindo-o-modelo]]
 * [[Validando na camada de negócios|camada-de-negocios]]
 * [[Integração com JSF|integracao-com-jsf]]
