@@ -27,8 +27,6 @@ System.out.println(extenso);
 
 Primeiramente criamos um formato próprio implementando a interface `FormatoDeExtenso`. Vamos criar um formato para imprimir tempo em segundos: 
 ```java
-import br.com.caelum.stella.inwords.FormatoDeExtenso;  
-
 public class FormatoDeSegundosComMilesimos implements FormatoDeExtenso {  
 
     public int getCasasDecimais() {  
@@ -56,9 +54,6 @@ public class FormatoDeSegundosComMilesimos implements FormatoDeExtenso {
 
 Agora vamos utilizar este formato para extrair números por extenso. 
 ```java
-import br.com.caelum.stella.inwords.FormatoDeExtenso;  
-import br.com.caelum.stella.inwords.NumericToWordsConverter;  
-
 public class ExemploDeExtenso {  
 
     public static void main(String[] args) {  
