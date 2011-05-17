@@ -1,0 +1,1 @@
+* Jeniffer pode te auxiliar a trabalhar com a Nota Fiscal Eletrônica [[http://www.jcomputacao.com.br/index.php?option=com_content&view=article&id=52&Itemid=57]]
