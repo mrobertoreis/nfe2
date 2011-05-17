@@ -4,9 +4,11 @@ Você pode sobrescrever as mensagens de erro criando um *ValidatorMessages.prope
 
 Exemplo de arquivo de validação:
 
-    # ValidatorMessages.properties
-    cpf_invalid  = CPF inválido 
-    cnpj_invalid = CNPJ inválido
+```properties
+#ValidatorMessages.properties
+cpf_invalid= CPF inválido 
+cnpj_invalid= CNPJ inválido
+```
 
 Opcionalmente, você pode definir as mensagens diretamente nas anotações:
 
