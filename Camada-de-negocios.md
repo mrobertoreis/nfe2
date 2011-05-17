@@ -1,4 +1,4 @@
-# Validação na camada de Negócio
+# Validação na camada de negócio
 
 Vamos validar uma classe que contem um documento como atributo. Veja o exemplo abaixo:
 ```java
