@@ -5,7 +5,7 @@ O Caelum Stella Core é o núcleo base necessário nas aplicações que utilizam
 Para utlizar o Caelum Stella Core basta adicionar o arquivo caelum-stella-core-2.x.jar ao classpath.
 Para saber mais sobre o Caelum Stella Core, consulte os links abaixo:
 
-* [[validadores-core]]
-* [[formatadores-core]]
-* [[mensagens-core]]
-* [[numeros-por-extenso-core]]
+* [[Validadores|validadores-core]]
+* [[Formatadores|formatadores-core]]
+* [[Mensagens|mensagens-core]]
+* [[Números por extenso|numeros-por-extenso-core]]
