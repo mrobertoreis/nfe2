@@ -2,7 +2,7 @@
 
 Bem vindo à documentação do Stella
 
-"Listas de discussão":https://github.com/caelum/caelum-stella/wiki/Listas-de-discuss%C3%A3o
+[[Listas de Discussao|listas-de-discussao]]
 
 [[Stella Core|stella-core]]
 
