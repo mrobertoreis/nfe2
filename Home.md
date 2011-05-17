@@ -1,6 +1,6 @@
 # Caelum Stella
 
-Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa suprir as necessidades do programador Java nas suas necessidades do dia a dia de trabalhar com o domínio brasileiros. Validadores para CEP, CPF, CNPJ, Inscrições, gerador de boleto e a integração desses com a JPA, JSF, bean validation e outros.
+Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa suprir as necessidades do programador Java nas suas necessidades do dia a dia de trabalhar com o domínio brasileiros. Validadores para CEP, CPF, CNPJ, Inscrições, gerador de boleto e a integração desses com a JPA, JSF, bean validation e outros. A versão mais recente é a 2.0-beta1.
 
 * [[Stella Core|stella-core]]
     * [[Validadores|validadores-core]]
@@ -26,3 +26,4 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
     * [Cadastre um bug ou pedido de melhoria](https://github.com/caelum/caelum-stella/issues)
 
 * [[Outros projetos que trabalham com o domínio brasileiro|outros-projetos]]
+* [Conheça outros projetos open source que a Caelum está envolvida](http://www.caelum.com.br/opensource/)
