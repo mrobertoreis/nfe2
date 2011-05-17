@@ -7,14 +7,6 @@
 ## Gerando Boletos
 
 ```java
-import br.com.caelum.stella.boleto.Banco;  
-import br.com.caelum.stella.boleto.Boleto;  
-import br.com.caelum.stella.boleto.Datas;  
-import br.com.caelum.stella.boleto.Emissor;  
-import br.com.caelum.stella.boleto.Sacado;  
-import br.com.caelum.stella.boleto.bancos.BancoDoBrasil;  
-import br.com.caelum.stella.boleto.transformer.BoletoGenerator;  
-
 public class Teste {  
     public static void main(String[] args) {  
     Datas datas = Datas.newDatas()
