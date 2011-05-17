@@ -8,7 +8,7 @@ As anotações fornecidas são compatíveis com a especificação de Bean Valida
 
 Lista de jars necessários no classpath:
 
-* caelum-stela-bean-validation 2x
+* caelum-stella-bean-validation 2x
 * caelum-stella-core 2x
 * validation-api 1.x 
 * mirror 1.5
