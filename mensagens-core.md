@@ -32,16 +32,18 @@ boolean isFormatted = true;
 CNPJValidator validator = new CNPJValidator(messageProducer,isFormatted);  
 ```
 Portanto, devemos ter o arquivo StellaValidationMessages_pt_BR.properties no classpath: 
+```properties
+#StellaValidationMessages_pt_BR.properties    
+#Erros de CPF  
+cpferror.invalid_digits  = CPF inválido  
+cpferror.invalid_check_digits  = CPF inválido  
+cpferror.invalid_format  = CPF inválido  
 
-    # StellaValidationMessages_pt_BR.properties    
-    # Erros de CPF  
-    cpferror.invalid_digits  = CPF inválido  
-    cpferror.invalid_check_digits  = CPF inválido  
-    cpferror.invalid_format  = CPF inválido  
-    # Erros de CNPJ  
-    cnpjerror.invalid_digits = CNPJ inválido  
-    cnpjerror.invalid_check_digits = CNPJ inválido : Dígitos verificadores incorretos  
-    cnpjerror.invalid_format = CNPJ inválido   
+#Erros de CNPJ  
+cnpjerror.invalid_digits = CNPJ inválido  
+cnpjerror.invalid_check_digits = CNPJ inválido : Dígitos verificadores incorretos  
+cnpjerror.invalid_format = CNPJ inválido   
+```
 
 Agora, veja como é simples realizar a validação do documento.
 ```java
