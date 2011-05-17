@@ -8,7 +8,7 @@ Exemplo de arquivo de validação:
     cpf_invalid  = CPF inválido 
     cnpj_invalid = CNPJ inválido
 
-Opicionalmente, você pode definir as mensagens diretamente nas anotações:
+Opcionalmente, você pode definir as mensagens diretamente nas anotações:
 
 ```java
 public class Pessoa {
