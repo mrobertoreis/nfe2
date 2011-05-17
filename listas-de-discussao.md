@@ -1,6 +1,4 @@
 # Listas de Discussão
-# Listas de Discussão
-
 
 [Lista de usuários](http://groups.google.com/group/caelum-stella-user)
 
