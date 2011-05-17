@@ -28,4 +28,4 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
     * Aconselhamos [as apostilas FJ-11 e FJ-21 da Caelum](http://www.caelum.com.br/apostilas/) para quem ainda não domina o Java.
 
 * [[Outros projetos que trabalham com o domínio brasileiro|outros-projetos]]
-* [Conheça outros projetos open source que a Caelum está envolvida](http://www.caelum.com.br/opensource/)
+* [Conheça outros projetos open source em que a Caelum está envolvida](http://www.caelum.com.br/opensource/)
