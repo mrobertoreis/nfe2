@@ -26,5 +26,5 @@ public class RegistraFuncionarioBean {
 ```
 Neste exemplo, tanto o CPF quanto o CNPJ serão validados pelo JSF
 
-## Integração com JSF 1x e JSP
+## Integração com JSF 1x
 Para saber mais sobre JSF e outras formas de integração com o Stella, acesse a página do [[Stella Faces|stella-faces]].
