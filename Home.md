@@ -1,3 +1,4 @@
+[[gollum.png]]
 # Caelum Stella
 
 Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa suprir as necessidades do programador Java nas suas necessidades do dia a dia de trabalhar com o domínio brasileiros. Validadores para CEP, CPF, CNPJ, Inscrição estadual, gerador de boleto e a integração desses com a JPA, JSF, bean validation e outros. A versão mais recente é a 2.0-beta1.
