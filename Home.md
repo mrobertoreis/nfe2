@@ -19,6 +19,8 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
     * [[Configurando mensagens|mensagens-bean-validation]]
 
 * [[Stella Faces|stella-faces]]
+    * [[Utilizando com JSF 1x|faces-1x]]
+    * [[Utilizando com JSF 2x|faces-2x]]
 
 * [[Stella Boleto|stella-boleto]]
     * [[Gerando Boletos|gerando-boleto]]
