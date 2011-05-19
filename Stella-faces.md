@@ -32,5 +32,4 @@ As chaves das mensagens neste arquivo devem seguir a convenção do `ResourceBun
 ## Utilizando o Stella Faces
 Para saber mais sobre o Caelum Stella faces, consulte os links abaixo:
 
-* [[Utilizando com JSF 1x|faces-1x]]
-* [[Utilizando com JSF 2x|faces-2x]]
+* [[Validando com Stella-Faces|faces-1x]]
