@@ -29,6 +29,8 @@ Para configurar as mensagens de erro utilize o recurso de i18n fornecido pelo Ja
 
 As chaves das mensagens neste arquivo devem seguir a convenção do `ResourceBundleMessageProducer`. 
 
+## Utilizando o Stella Faces
+Para saber mais sobre o Caelum Stella faces, consulte os links abaixo:
 
-
-
+* [[Utilizando com JSF 1x|faces-1x]]
+* [[Utilizando com JSF 2x|faces-2x]]
