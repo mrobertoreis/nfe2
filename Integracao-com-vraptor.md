@@ -44,3 +44,5 @@ Se houver algum erro no cadastro, a mensagem será exibida na tela de cadastro
 	${error.category} - ${error.message}<br />
 </c:forEach>
 ```
+
+Para saber mais sobre como utilizar validações no VRaptor, acesse a [[documentação do VRaptor|http://vraptor.caelum.com.br/documentacao/validacao/]]
