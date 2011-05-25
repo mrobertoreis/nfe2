@@ -14,12 +14,12 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
     * [[Anotando o modelo|anotando-o-modelo]]
     * [[Persistindo o modelo|persistindo-o-modelo]]
     * [[Validando na camada de negócios|camada-de-negocios]]
-    * [[Integração com JSF|integracao-com-jsf]]
     * [[Integração com VRaptor|integracao-com-vraptor]]
     * [[Configurando mensagens|mensagens-bean-validation]]
 
 * [[Stella Faces|stella-faces]]
-    * [[Validando com o Stella Faces|faces-1x]]
+    * [[Validando com o Stella Faces no xhtml|faces]]
+    * [[Usando anotações no model|integracao-com-jsf]]
 
 * [[Stella Boleto|stella-boleto]]
     * [[Gerando Boletos|gerando-boleto]]
