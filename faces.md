@@ -6,6 +6,18 @@ Veja os exemplos de validação e note a simplicidade dos códigos implementados
 
 Partindo de uma aplicação configurada para JSF podemos começar a utilizar nosso validador na página. O Stella Faces fornece uma biblioteca de tags para facilitar o trabalho do desenvolvedor, sendo necessário importar as taglibs para a versão do JSF que estiver utilizando
 
+### Taglibs para JSF 2x
+
+Basta você utilizar:
+
+```jsp
+<!-- taglib para Jsf 2x, utilizando facelets -->
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:ui="http://java.sun.com/jsf/facelets"  
+      xmlns:h="http://java.sun.com/jsf/html"  
+      xmlns:f="http://java.sun.com/jsf/core"  
+      xmlns:stella="http://stella.caelum.com.br/faces2">  
+```
 
 ### Taglibs para JSF 1x
 
@@ -23,17 +35,7 @@ Partindo de uma aplicação configurada para JSF podemos começar a utilizar nos
       xmlns:stella="http://stella.caelum.com.br/faces">  
 ```
 
-### Taglibs para JSF 2x
-
-```jsp
-<!-- taglib para Jsf 2x, utilizando facelets -->
-<html xmlns="http://www.w3.org/1999/xhtml"  
-      xmlns:ui="http://java.sun.com/jsf/facelets"  
-      xmlns:h="http://java.sun.com/jsf/html"  
-      xmlns:f="http://java.sun.com/jsf/core"  
-      xmlns:stella="http://stella.caelum.com.br/faces2">  
-```
-A unica mudança é o namespace que muda de http://stella.caelum.com.br/faces para http://stella.caelum.com.br/faces2
+A unica mudança é o namespace que muda de http://stella.caelum.com.br/faces2 para http://stella.caelum.com.br/faces
 
 ## Utilizando as taglibs do stella
 ```jsp
