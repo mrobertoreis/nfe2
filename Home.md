@@ -1,6 +1,7 @@
 [[http://www.caelum.com.br/imagens/base/caelum-ensino-inovacao.png]] [[https://github.com/caelum/caelum-stella/raw/master/site/public/images/stella.jpg]]
 
 # Caelum Stella
+**Validação e Conversão para padrões brasileiros via Java**
 
 Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa suprir as necessidades do programador Java nas suas necessidades do dia a dia de trabalhar com o domínio brasileiros. Validadores para CEP, CPF, CNPJ, Inscrição estadual, gerador de boleto e a integração desses com a JPA, JSF, bean validation e outros. A versão mais recente é a 2.0-beta1. Saiba como [[fazer o download e usar o Maven|download]].
 
