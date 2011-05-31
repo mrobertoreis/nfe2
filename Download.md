@@ -1,5 +1,5 @@
 # Download
-  * Download dos jar individualmente [na página de downloads](https://github.com/caelum/caelum-stella/downloads)
+  * Download dos jar individualmente [na página de downloads](https://github.com/caelum/caelum-stella/downloads). Lembrando de que o core é necessário por todos os outros.
 
   * Configurando como dependência no maven:
     * Stella-core
@@ -7,6 +7,15 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-core</artifactId>
+    <version>2.0-beta1</version>
+</dependency>
+```
+
+    * Stella-bean-validation
+```xml
+<dependency>
+    <groupId>br.com.caelum.stella</groupId>
+    <artifactId>caelum-stella-bean-validation</artifactId>
     <version>2.0-beta1</version>
 </dependency>
 ```
