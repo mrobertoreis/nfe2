@@ -1,4 +1,4 @@
-[[http://www.caelum.com.br/imagens/base/caelum-ensino-inovacao.png]] [[https://github.com/caelum/caelum-stella/raw/master/site/images/stella.jpg]]
+[[http://www.caelum.com.br/imagens/base/caelum-ensino-inovacao.png]] [[https://github.com/caelum/caelum-stella/raw/master/site/public/images/stella.jpg]]
 
 # Caelum Stella
 
