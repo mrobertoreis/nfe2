@@ -6,7 +6,7 @@ Vamos validar um documento de CPF utilzando o Stella Core.
 
 ```java
 
-String cpf = "222.888.44452";
+String cpf = "222.888.444-52";
 
 ```
 
