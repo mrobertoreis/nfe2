@@ -25,7 +25,7 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
 * [[Stella Boleto|stella-boleto]]
     * [[Gerando Boletos|gerando-boleto]]
 
-* Tirando suas dúvidas e participando do projeto
+* Tirando suas dúvidas
     * [Fórum no GUJ](http://www.guj.com.br/forums/show/23.java)
     * [Lista de usuários](http://groups.google.com/group/caelum-stella-user)
     * [Lista de desenvolvedores](http://groups.google.com/group/caelum-stella-dev)
