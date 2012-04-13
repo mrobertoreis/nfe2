@@ -7,7 +7,6 @@ Vamos validar um documento de CPF utilizando o Stella Core.
 ```java
 
 String cpf = "222.888.444-52";
-
 ```
 
 
@@ -19,7 +18,6 @@ O Stella fornece uma classe que valida este documento.
 ```java
 
 CPFValidator validator = new CPFValidator();
-
 ```
 
 
@@ -28,20 +26,19 @@ Agora, veja como é simples realizar a validação do documento.
 
 ```java
 
- try {
+try {
 
- // lógica de negócio ...
+    // lógica de negócio ...
 
- validator.assertValid(cpf);
+    validator.assertValid(cpf);
 
- // continuação da lógica de negócio ...
+    // continuação da lógica de negócio ...
 
- } catch (InvalidStateException e) { // exception lançada quando o documento é inválido
+} catch (InvalidStateException e) { // exception lançada quando o documento é inválido
 
- System.out.println(e.getInvalidMessages());
+    System.out.println(e.getInvalidMessages());
 
- }
-
+}
 ```
 
 
