@@ -1,6 +1,6 @@
 #Validadores
 
-Vamos validar um documento de CPF utilzando o Stella Core.
+Vamos validar um documento de CPF utilizando o Stella Core.
 
 
 
@@ -12,7 +12,7 @@ String cpf = "222.888.444-52";
 
 
 
-O Stella forncede uma classe que valida este documento.
+O Stella fornece uma classe que valida este documento.
 
 
 
