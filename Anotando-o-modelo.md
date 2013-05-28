@@ -40,6 +40,14 @@ public class Pessoa {
 } 
 ```
 
+Por padrão CPFs com todos os dígitos iguais são considerados inválidos, para alterar esse comportamento basta usar o atributo ```ignoreRepeated``` da anotação @CPF:
+
+```java
+    @CPF(ignoreRepeated=true) // default é false
+    private String cpf;  
+ 
+```
+
 Você pode também inserir anotações em interfaces. O Bean Validation irá verificar todas as superclasses e interfaces extendidas ou implementadas por qualquer bean fornecido para carregar as anotações apropriadas. 
 
 ```java
@@ -107,4 +115,3 @@ public class PrestadoraDeServicos {
     }  
 }  
 ```
-
