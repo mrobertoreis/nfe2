@@ -5,7 +5,7 @@ Você pode sobrescrever as mensagens de erro criando um *ValidationMessages.prop
 Exemplo de arquivo de validação:
 
 ```properties
-#ValidatorMessages.properties
+#ValidationMessages.properties
 br.com.caelum.stella.bean.validation.CPF.message= CPF inválido 
 br.com.caelum.stella.bean.validation.CNPJ.message= CNPJ inválido
 ```
