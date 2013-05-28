@@ -11,6 +11,17 @@ System.out.println(extenso);
 // um milhão e cento e cinquenta inteiros e novecentos e noventa milésimos 
 ```
 
+Se você preferir, pode imprimir o número sem a unidade, basta alterar o conversor utilizado:
+
+```java
+NumericToWordsConverter converter;  
+converter = new NumericToWordsConverter(new FormatoDeInteiro());  
+double numero = 1000150.99;  
+String extenso = converter.toWords(numero);  
+System.out.println(extenso);
+// um milhão e cento e cinquenta e um
+````
+
 ## Utilizando o Formato De Real
 
 Utilizando o stella apra imprimir valores monetários
@@ -74,6 +85,5 @@ A saída no console será a seguinte:
 *Cibernautas demoram cinquenta milésimos de segundo a avaliar uma página.*
 
 *Técnico diz que Bolt poderia ter feito 100m em nove segundos e quinhentos e vinte milésimos de segundo.*
-
 
 
