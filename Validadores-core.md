@@ -27,31 +27,19 @@ Agora, veja como é simples realizar a validação do documento.
 ```java
 
 try {
-
     // lógica de negócio ...
-
     validator.assertValid(cpf);
-
     // continuação da lógica de negócio ...
-
 } catch (InvalidStateException e) { // exception lançada quando o documento é inválido
-
     System.out.println(e.getInvalidMessages());
-
 }
 ```
-
-
 
 Após a execução deste programa a saída do console apresentará a seguinte linha:
 
 **[CPFError : INVALID CHECK DIGITS]**
 
-
-
 Ao chamar o método `assertValid()` este lançará uma exceção (do tipo unchecked): `InvalidStateException`.
-
-
 
 Podemos capturar as messagens de erro utilizando o método `invalidMessagesFor()`. Este método **não** lança a `InvalidStateException`.
 
@@ -61,7 +49,7 @@ Podemos capturar as messagens de erro utilizando o método `invalidMessagesFor()
 
 List<ValidationMessage> validationMessages = validator.invalidMessagesFor(cpf);
 
-System.out.println(validationMessages.getInvalidMessages());
+System.out.println(validationMessages);
 
 // continuação da lógica de negócio ...
 
