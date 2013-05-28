@@ -32,4 +32,4 @@ As chaves das mensagens neste arquivo devem seguir a convenção do `ResourceBun
 ## Utilizando o Stella Faces
 Para saber mais sobre o Caelum Stella faces, consulte os links abaixo:
 
-* [[Validando com Stella-Faces|faces-1x]]
+* [[Validando com Stella-Faces|https://github.com/caelum/caelum-stella/wiki/faces]]
