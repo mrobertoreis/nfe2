@@ -1,13 +1,13 @@
 # Mensagens de erro
 
-Você pode sobrescrever as mensagens de erro criando um *ValidatorMessages.properties* e inserir nele os campos desejados. Se o Bean Validation não conseguir resolver uma chave a partir do seu *resourceBundle* ou do *ValidatorMessages*, ele retornará o valor embutido padrão.
+Você pode sobrescrever as mensagens de erro criando um *ValidationMessages.properties* e inserir nele os campos desejados. Se o Bean Validation não conseguir resolver uma chave a partir do seu *resourceBundle* ou do *ValidationMessages*, ele retornará o valor embutido padrão.
 
 Exemplo de arquivo de validação:
 
 ```properties
 #ValidatorMessages.properties
-cpf_invalid= CPF inválido 
-cnpj_invalid= CNPJ inválido
+br.com.caelum.stella.bean.validation.CPF.message= CPF inválido 
+br.com.caelum.stella.bean.validation.CNPJ.message= CNPJ inválido
 ```
 
 Opcionalmente, você pode definir as mensagens diretamente nas anotações:
