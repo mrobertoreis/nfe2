@@ -4,56 +4,55 @@ Veja um exemplo de geração de boleto para o Banco do Brasil
 ```java
 public class Teste {  
     public static void main(String[] args) {  
-    Datas datas = Datas.newDatas()
-            .withDocumento(1, 5, 2008)
-            .withProcessamento(1, 5, 2008)
-            .withVencimento(2, 5, 2008);  
+        Datas datas = Datas.novasDatas()
+	    .comDocumento(1, 5, 2008)
+	    .comProcessamento(1, 5, 2008)
+	    .comVencimento(2, 5, 2008);  
 
-    Emissor emissor = Emissor.newEmissor()  
-            .withCedente("Fulano de Tal")  
-            .withAgencia(1824).withDvAgencia('4')  
-            .withContaCorrente(76000)  
-            .withNumConvenio(1207113)  
-            .withDvContaCorrente('5')  
-            .withCarteira(18)  
-            .withNossoNumero(9000206);  
+	Emissor emissor = Emissor.novoEmissor()  
+            .comCedente("Fulano de Tal")  
+            .comAgencia(1824).comDigitoAgencia('4')  
+            .comContaCorrente(76000)  
+            .comNumeroConvenio(1207113)  
+            .comDigitoContaCorrente('5')  
+            .comCarteira(18)  
+            .comNossoNumero(9000206);  
 
-    Sacado sacado = Sacado.newSacado()  
-            .withNome("Fulano da Silva")  
-            .withCpf("111.222.333-12")  
-            .withEndereco("Av dos testes, 111 apto 333")  
-            .withBairro("Bairro Teste")  
-            .withCep("01234-111")  
-            .withCidade("São Paulo")  
-            .withUf("SP");  
+        Sacado sacado = Sacado.novoSacado()  
+	    .comNome("Fulano da Silva")  
+            .comCpf("111.222.333-12")  
+            .comEndereco("Av dos testes, 111 apto 333")  
+            .comBairro("Bairro Teste")  
+            .comCep("01234-111")  
+            .comCidade("São Paulo")  
+            .comUf("SP");  
 
-    Banco banco = new BancoDoBrasil();  
+        Banco banco = new BancoDoBrasil();  
 
-    Boleto boleto = Boleto.newBoleto()  
-            .withBanco(banco)  
-            .withDatas(datas)  
-            .withDescricoes("descricao 1", "descricao 2", "descricao 3", "descricao 4", "descricao 5")  
-            .withEmissor(emissor)  
-            .withSacado(sacado)  
-            .withValorBoleto("200.00")  
-            .withNoDocumento("1234")  
-            .withInstrucoes("instrucao 1", "instrucao 2", "instrucao 3", "instrucao 4", "instrucao 5")  
-            .withLocaisDePagamento("local 1", "local 2")  
-            .withNoDocumento("4343");
+	Boleto boleto = Boleto.novoBoleto()  
+            .comBanco(banco)  
+            .comDatas(datas)  
+            .comDescricoes("descricao 1", "descricao 2", "descricao 3", "descricao 4", "descricao 5")  
+            .comEmissor(emissor)  
+            .comSacado(sacado)  
+            .comValorBoleto("200.00")  
+            .comNumeroDoDocumento("1234")  
+            .comInstrucoes("instrucao 1", "instrucao 2", "instrucao 3", "instrucao 4", "instrucao 5")  
+            .comLocaisDePagamento("local 1", "local 2");  
 
-    BoletoGenerator gerador = new BoletoGenerator(boleto);  
+        GeradorDeBoleto gerador = new GeradorDeBoleto(boleto);  
 
-    // Para gerar um boleto em PDF  
-    gerador.toPDF("BancoDoBrasil.pdf");  
+        // Para gerar um boleto em PDF  
+        gerador.geraPDF("BancoDoBrasil.pdf");  
 
-    // Para gerar um boleto em PNG  
-    gerador.toPNG("BancoDoBrasil.png");  
+        // Para gerar um boleto em PNG  
+        gerador.geraPNG("BancoDoBrasil.png");  
 
-    // Para gerar um array de bytes a partir de um PDF  
-    byte[] bPDF = gerador.toPDF();  
+        // Para gerar um array de bytes a partir de um PDF  
+        byte[] bPDF = gerador.geraPDF();  
 
-    // Para gerar um array de bytes a partir de um PNG  
-    byte[] bPNG = gerador.toPNG();  
+        // Para gerar um array de bytes a partir de um PNG  
+        byte[] bPNG = gerador.geraPNG();  
 
     }  
 }  
