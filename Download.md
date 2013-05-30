@@ -1,5 +1,5 @@
 # Download
-  * Download dos jar individualmente [na página de downloads](https://github.com/caelum/caelum-stella/). Lembrando de que o stella-core é necessário por todos os outros.
+  * Download dos jar individualmente [[na página de downloads|Downloads do caelum stella]]. Lembrando de que o stella-core é necessário por todos os outros.
 
   * Configurando como dependência no maven:
     * Stella-core
