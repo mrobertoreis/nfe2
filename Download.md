@@ -7,7 +7,7 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-core</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
 
@@ -16,7 +16,7 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-bean-validation</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
 
@@ -34,7 +34,7 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-hibernate-user-types</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
 
@@ -43,6 +43,6 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-boleto</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
