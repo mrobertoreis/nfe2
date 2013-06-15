@@ -25,7 +25,7 @@
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-faces</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
 
