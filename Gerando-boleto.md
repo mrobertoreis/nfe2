@@ -72,6 +72,44 @@ De forma análoga, podemos também utilizar o recurso de var args.
 new BoletoGenerator(boletoDeJaneiro,boletoDeFevereiro,boletoDeMarco).toPDF("boletos.pdf");
 ```
 
+##Gerando Boleto em HTML
+
+Em sistemas web você pode exibir o boleto diretamente em uma página, seguindo o seguinte passo a passo: 
+
+* Registre a Servlet do stella-boleto no seu ```web.xml```:
+
+```xml
+<servlet>
+  <servlet-name>boleto</servlet-name>
+  <servlet-class>br.com.caelum.stella.boleto.transformer.HTMLBoletoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>boleto</servlet-name>
+  <url-pattern>/stella-boleto</url-pattern>
+</servlet-mapping>
+```
+
+* Para gerar o html dos boletos, use a classe ```BoletoTransformer```, em conjunto com a classe ```HTMLBoletoWriter```. É preciso informar o endereço onde a Servlet do stella-boleto foi registrada:
+
+```java
+BoletoTransformer transformer = new BoletoTransformer(new HTMLBoletoWriter("stella-boleto")); // url da servlet
+InputStream is = transformer.transform(boleto);
+```
+
+* Agora é necessário utilizar o conteúdo do ```InputStream``` para escrever no corpo do html. se estiver utilizando o [Vraptor](http://vraptor.caelum.com.br/pt/) o código pode ser o seguinte:
+
+```java
+@Path("/boletoHTML")
+public void boletoHTML(Integer numeroBoleto){
+  Boleto boleto = //busca boleto...
+
+  BoletoTransformer transformer = new BoletoTransformer(new HTMLBoletoWriter("stella-boleto")); 
+  InputStream is = transformer.transform(boleto);
+
+  result.use(Results.http()).addHeader("Content-Type","text/html").body(inputStream).setStatusCode(200);
+}
+```
+
 ## Termos Relevantes
 
 * **Aceite**: diz se o banco deve aceitar o boleto após a data de vencimento. Padrão: 'N'
