@@ -8,8 +8,15 @@
 
 Lista de jars necessários no classpath:
 
-* caelum-stella-boleto 2x
-* itext 2.x
+* caelum-stella-core 2.x
+* caelum-stella-boleto 2.x
+* jasperreports 5.5.0
+    * commons-beanutils 1.8.x
+    * commons-collections 2.1
+    * commons-digester 2.1
+    * commons-logging 1.1.1
+    * itext 2.1.7
+    * barbecue 1.5
 
 ## Utilizando o Stella Boleto
 Para saber mais sobre o Caelum Stella Boleto, consulte os links abaixo:
