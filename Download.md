@@ -1,8 +1,9 @@
 # Download
-  * Download dos jar individualmente [[na página de downloads|Downloads do caelum stella]]. Lembrando de que o stella-core é necessário por todos os outros.
+Download dos jar individualmente [[na página de downloads|Downloads do caelum stella]]. Lembrando de que o stella-core é necessário por todos os outros.
 
-  * Configurando como dependência no maven:
-    * Stella-core
+##### Configurando como dependência no maven:
+
+###### Stella core:
 ```xml
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
@@ -11,7 +12,7 @@
 </dependency>
 ```
 
-    * Stella-bean-validation
+###### Stella bean validation:
 ```xml
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
@@ -20,7 +21,7 @@
 </dependency>
 ```
 
-    * Stella-faces
+###### Stella faces:
 ```xml
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
@@ -29,7 +30,7 @@
 </dependency>
 ```
 
-    * Stella-hibernate-user-types
+###### Stella hibernate user types:
 ```xml
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
@@ -38,7 +39,7 @@
 </dependency>
 ```
 
-    * Stella-boleto
+###### Stella boleto:
 ```xml
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
