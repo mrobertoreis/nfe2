@@ -8,48 +8,61 @@ public class Teste {
                 .comDocumento(1, 5, 2008)
                 .comProcessamento(1, 5, 2008)
                 .comVencimento(2, 5, 2008);  
-        
-        Emissor emissor = Emissor.novoEmissor()  
-                .comCedente("Fulano de Tal")  
+
+        Endereco enderecoBeneficiario = Endereco.novoEndereco()
+        		.comLogradouro("Av das Empresas, 555")  
+        		.comBairro("Bairro Grande")  
+        		.comCep("01234-555")  
+        		.comCidade("São Paulo")  
+        		.comUf("SP");  
+
+        //Quem emite o boleto
+        Beneficiario beneficiario = Beneficiario.novoBeneficiario()  
+                .comNomeBeneficiario("Fulano de Tal")  
                 .comAgencia("1824").comDigitoAgencia("4")  
-                .comContaCorrente("76000")  
+                .comCodigoBeneficiario("76000")  
+                .comDigitoCodigoBeneficiario("5")  
                 .comNumeroConvenio("1207113")  
-                .comDigitoContaCorrente("5")  
                 .comCarteira("18")  
+                .comEndereco(enderecoBeneficiario)
                 .comNossoNumero("9000206");  
+
+        Endereco enderecoPagador = Endereco.novoEndereco()
+        		.comLogradouro("Av dos testes, 111 apto 333")  
+        		.comBairro("Bairro Teste")  
+        		.comCep("01234-111")  
+        		.comCidade("São Paulo")  
+        		.comUf("SP");  
         
-        Sacado sacado = Sacado.novoSacado()  
+        //Quem paga o boleto
+        Pagador pagador = Pagador.novoPagador()  
                 .comNome("Fulano da Silva")  
-                .comCpf("111.222.333-12")  
-                .comEndereco("Av dos testes, 111 apto 333")  
-                .comBairro("Bairro Teste")  
-                .comCep("01234-111")  
-                .comCidade("São Paulo")  
-                .comUf("SP");  
-        
+                .comDocumento("111.222.333-12")
+                .comEndereco(enderecoPagador);
+
         Banco banco = new BancoDoBrasil();  
-        
+
         Boleto boleto = Boleto.novoBoleto()  
                 .comBanco(banco)  
                 .comDatas(datas)  
-                .comEmissor(emissor)  
-                .comSacado(sacado)  
+                .comBeneficiario(beneficiario)  
+                .comPagador(pagador)  
                 .comValorBoleto("200.00")  
                 .comNumeroDoDocumento("1234")  
                 .comInstrucoes("instrucao 1", "instrucao 2", "instrucao 3", "instrucao 4", "instrucao 5")  
                 .comLocaisDePagamento("local 1", "local 2");  
-        
+
         GeradorDeBoleto gerador = new GeradorDeBoleto(boleto);  
-        
+
         // Para gerar um boleto em PDF  
         gerador.geraPDF("BancoDoBrasil.pdf");  
-        
+
         // Para gerar um boleto em PNG  
         gerador.geraPNG("BancoDoBrasil.png");  
-        
+
         // Para gerar um array de bytes a partir de um PDF  
         byte[] bPDF = gerador.geraPDF();  
-        
+
         // Para gerar um array de bytes a partir de um PNG  
         byte[] bPNG = gerador.geraPNG();
     }  
@@ -118,6 +131,5 @@ há outras variações desses métodos, para gravar os boletos gerados em arquiv
 * **Carteira**: código informado pelo banco pra identificação do tipo do boleto
 * **Número do Convênio**: código que identifica um emissor junto ao seu banco para associar seus boletos. Fornecido pelo banco
 * **Nosso Número**: código que o cedente escolhe para manter controle sobre seus boletos. Esse valor serve para o cedente identificar quais boletos foram pagos ou não. Recomenda-se o uso de números sequênciais, na geração de diversos boletos, para facilitar a identificação dos boletos pagos
-* **Cedente**: nome do emissor
-* **Emissor**: pessoa/empresa que gera o boleto
-* **Sacado**: pessoa/empresa que deve pagar o boleto
+* **Beneficiário**: pessoa/empresa que gera o boleto
+* **Pagador**: pessoa/empresa que deve pagar o boleto
