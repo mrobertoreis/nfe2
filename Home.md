@@ -25,6 +25,10 @@ Bem vindo à documentação do Caelum-Stella. O Stella é um projeto que visa su
 * [[Stella Boleto|stella-boleto]]
     * [[Gerando Boletos|gerando-boleto]]
     * [[Customizando os layouts dos Boletos|Customizando o layout dos boletos]]
+
+* [[Stella Frete|stella-frete]]
+    * [[Calculando Frete|calculando-frete]]
+
 * Tirando suas dúvidas
     * [Fórum no GUJ](http://www.guj.com.br/perguntas)
     * [Grupo de discussão para usuários](http://groups.google.com/group/caelum-stella-user)
