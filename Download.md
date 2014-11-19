@@ -8,7 +8,7 @@ Download dos jar individualmente [[na página de downloads|Downloads do caelum s
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-core</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
 
@@ -17,7 +17,7 @@ Download dos jar individualmente [[na página de downloads|Downloads do caelum s
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-bean-validation</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
 
@@ -26,7 +26,7 @@ Download dos jar individualmente [[na página de downloads|Downloads do caelum s
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-faces</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
 
@@ -35,7 +35,7 @@ Download dos jar individualmente [[na página de downloads|Downloads do caelum s
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-hibernate-user-types</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
 
@@ -44,6 +44,6 @@ Download dos jar individualmente [[na página de downloads|Downloads do caelum s
 <dependency>
     <groupId>br.com.caelum.stella</groupId>
     <artifactId>caelum-stella-boleto</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
